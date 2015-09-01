@@ -83,8 +83,6 @@ var mouseX = 0, mouseY = 0,
                 scene.add( line );
 
                 document.addEventListener( 'mousemove', onDocumentMouseMove, false );
-                document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-                document.addEventListener( 'touchmove', onDocumentTouchMove, false );
 
                 //
 
@@ -110,32 +108,6 @@ var mouseX = 0, mouseY = 0,
 
                 mouseX = (event.clientX - windowHalfX) * 0.05;
                 mouseY = (event.clientY - windowHalfY) * 0.2;
-
-            }
-
-            function onDocumentTouchStart( event ) {
-
-                if ( event.touches.length > 1 ) {
-
-                    event.preventDefault();
-
-                    mouseX = (event.touches[ 0 ].pageX - windowHalfX) * 0.7;
-                    mouseY = (event.touches[ 0 ].pageY - windowHalfY) * 0.7;
-
-                }
-
-            }
-
-            function onDocumentTouchMove( event ) {
-
-                if ( event.touches.length == 1 ) {
-
-                    event.preventDefault();
-
-                    mouseX = event.touches[ 0 ].pageX - windowHalfX;
-                    mouseY = event.touches[ 0 ].pageY - windowHalfY;
-
-                }
 
             }
 
