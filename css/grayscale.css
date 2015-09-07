@@ -164,7 +164,7 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -185,7 +185,8 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
+    padding-bottom: 30px;
 }
 
 .intro .intro-body .brand-heading {
@@ -194,13 +195,6 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-}
-
-.container-me{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-bottom: 15px;
 }
 
 @media(min-width:767px) {
