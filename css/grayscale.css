@@ -196,6 +196,13 @@ a:focus {
     font-size: 18px;
 }
 
+.container-me{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
