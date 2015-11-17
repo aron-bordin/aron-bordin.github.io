@@ -4,6 +4,8 @@ grafico1 <- function(n){
 	eq2 <- function(x){6*x*log2(x)+6*x}
 	data2 <- do.call(rbind, lapply(1:n, eq2))
 	
+	png("1.png")
 	plot(1:n,data1,type="l",col="red", xlab="N", ylab="Tempo de execução")	
 	lines(1:n,data2,col="blue")
+	dev.off()
 }
