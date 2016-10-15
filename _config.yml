@@ -15,7 +15,7 @@ disqus-shortname: "aronbordin"
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
+  Blogs: 'blogs'
   Career: 'career'
   Awards: 'awards'
   Contact: 'contact'
@@ -38,6 +38,12 @@ reddit-share: True
 # Career variables
 
 events:
+  - image: "/img/career/gsoc_2016.jpg"
+    date: "March 2015 - August 2015"
+    description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Kivy Designer"
+  - image: "/img/career/saci.jpg"
+    date: "February 2016 - Until Now"
+    description: "I'm the coordinator of Saci Lab Unesp (Adaptive Systems and Computational Intelligence Laboratory), a lab about Artificial Intelligence and its applications."
   - image: "/img/career/gsoc_2015.jpg"
     date: "March 2015 - August 2015"
     description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Kivy Designer"
@@ -56,6 +62,8 @@ events:
 
 
 awards:
+  - title: "ICPC - 1º Place Programming Contest Brazil - First Phase (Regional)"
+    date: "2016"
   - title: "OBFEP - Brazilian Physics Olympiad - Bronze Medal"
     date: "2014"
   - title: "OBA - Brazilian Astronomy Olympiad - Golden Medal"
@@ -87,7 +95,9 @@ social:
   - title: "youtube"
     url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
-404-img: "/img/labtocat.png"
+notfoundimg: "/img/labtocat.png"
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "info.mk", "vendor"]
+
+gems: [jekyll-paginate]

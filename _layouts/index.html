@@ -21,7 +21,13 @@
 
       {% if page.section-type == "about" %}
 
-        {% include about.html %}
+        <div class="about">
+            {% include about.html %}
+        </div>
+
+      {% elsif page.section-type == "blogs" %}
+
+        {% include blogs.html %}
 
       {% elsif page.section-type == "latest-post" %}
 
