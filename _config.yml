@@ -38,6 +38,7 @@ reddit-share: True
 # Career variables
 
 events:
+
   - image: "/img/career/gsoc_2016.jpg"
     date: "March 2015 - August 2015"
     description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Kivy Designer"
@@ -47,6 +48,9 @@ events:
   - image: "/img/career/gsoc_2015.jpg"
     date: "March 2015 - August 2015"
     description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Kivy Designer"
+  - image: "/img/career/finch.png"
+    date: "April 2015 - October 2015"
+    description: "My first job with ML! Internship with R&D at Finch Soluções, working with NLP and Java."
   - image: "/img/career/unesp.jpg"
     date: "April 2015 - Until now"
     description: "I'm at University! Computer Science student at São Paulo State University :)"
@@ -86,8 +90,8 @@ career-img: "/img/career/computer.png"
 
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 social:
-  - title: "rss"
-    url: "/feed.xml"
+  - title: "book"
+    url: "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4477109D3"
   - title: "github"
     url: "https://github.com/aron-bordin"
   - title: "linkedin"
