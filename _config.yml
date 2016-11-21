@@ -40,8 +40,8 @@ reddit-share: True
 events:
 
   - image: "/img/career/gsoc_2016.jpg"
-    date: "March 2015 - August 2015"
-    description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Kivy Designer"
+    date: "March 2016 - August 2016"
+    description: "Wow! I'm at Google Summer of Code!! Again !! Worked with Python Foundation with Scrapy Streaming project"
   - image: "/img/career/saci.jpg"
     date: "February 2016 - Until Now"
     description: "I'm the coordinator of Saci Lab Unesp (Adaptive Systems and Computational Intelligence Laboratory), a lab about Artificial Intelligence and its applications."
