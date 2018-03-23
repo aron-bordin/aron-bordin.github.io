@@ -62,10 +62,7 @@ events:
     description: "My first job as a programmer! Internship with R&D, focusing on Mobile and Web solutions."
   - image: "/img/career/cti.jpg"
     date: "February 2012 - December 2014"
-    description: "Started to study Computer Programming at CTI - Unesp/Bauru. One of the best Brazilian public school. And one of best decision I had ever made :)"
-  - image: "/img/career/controller.jpg"
-    date: "2010 or 2011"
-    description: "My first program. I was able to turn my wireless controller off with C++ !"
+    description: "Started to study Computer Programming at CTI - Unesp/Bauru."
 
 
 awards:
