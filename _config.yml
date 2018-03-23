@@ -39,11 +39,14 @@ reddit-share: True
 
 events:
 
+  - image: "/img/career/finch.png"
+    date: "February 2017 - July 2017"
+    description: "Data Scientist at Finch. Working with Deep Learning and NLP"
   - image: "/img/career/gsoc_2016.jpg"
     date: "March 2016 - August 2016"
-    description: "Wow! I'm at Google Summer of Code!! Again !! Worked with Python Foundation with Scrapy Streaming project"
+    description: "Wow! I'm at Google Summer of Code!! Worked with Python Foundation with Scrapy Streaming project"
   - image: "/img/career/saci.jpg"
-    date: "February 2016 - Until Now"
+    date: "February 2016 - November 2017"
     description: "I'm the coordinator of Saci Lab Unesp (Adaptive Systems and Computational Intelligence Laboratory), a lab about Artificial Intelligence and its applications."
   - image: "/img/career/gsoc_2015.jpg"
     date: "March 2015 - August 2015"
