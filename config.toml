@@ -7,7 +7,7 @@ googleAnalytics = "UA-66934256-1"
 
 [params]
 author = "Aron Bordin"
-description = "Aron Bordin - Data Engineer/Scientist"
+description = "Aron Bordin - Data Engineer/Scientist. I’m experienced in the entire pipeline of data processing, from data collection to data intelligence, using the Python ecosystem ..."
 
 primaryColor = "#b73c3c"
 textPrimaryColor = "#292929"
