@@ -89,6 +89,7 @@ a.theme-link {
 /*********** Resume **********/
 .resume-wrapper {
 	border: 1px solid rgba(0, 0, 0, 0.025);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.1)!important;
 }
 
 .resume-section-heading {
@@ -202,10 +203,3 @@ a.resume-link {
 	    border-left: 0;
     }
 }
-
-
-
-
-
-
-
