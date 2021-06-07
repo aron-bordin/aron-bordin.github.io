@@ -1,0 +1,238 @@
+# Page settings
+
+baseURL = "http://aronbordin.com/"
+languageCode = "en"
+title = "Aron Bordin"
+googleAnalytics = "UA-66934256-1"
+
+[params]
+author = "Aron Bordin"
+description = "Aron Bordin - Data Engineer/Scientist"
+
+primaryColor = "#b73c3c"
+textPrimaryColor = "#292929"
+
+[params.profile]
+enable = true
+name = "Aron Bordin"
+tagline = "Data Engineer/Scientist • Python/Go"
+avatar = "me.jpeg"
+
+[params.contact]
+enable = true
+location = "Brazil"
+
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+url = "mailto:aron.bordin@gmail.com"
+text = "aron.bordin@gmail"
+[[params.contact.list]]
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/aronbordin/"
+text = "Linkedin"
+
+[params.skills]
+enable = true
+
+[[params.skills.list]]
+title = "Technical"
+[[params.skills.list.items]]
+details = "Python/Go/Typescript"
+[[params.skills.list.items]]
+details = "Vue/React"
+[[params.skills.list.items]]
+details = "Pandas/Numpy/Bokeh"
+[[params.skills.list.items]]
+details = "PySpark/Airflow/Luigi"
+[[params.skills.list.items]]
+details = "PyTorch/scikit-learn"
+[[params.skills.list.items]]
+details = "Elastic/Kibana/MongoDB"
+[[params.skills.list.items]]
+details = "PowerBI/Data Studio"
+
+[[params.skills.list]]
+title = "Professional"
+[[params.skills.list.items]]
+details = "Remote work/Async communication"
+[[params.skills.list.items]]
+details = "Always learning"
+[[params.skills.list.items]]
+details = "Problem solver"
+[[params.skills.list.items]]
+details = "Proactive"
+[[params.skills.list.items]]
+details = "Knowledge sharing"
+
+
+[params.education]
+enable = true
+
+[[params.education.list]]
+degree = "Bachelor - Computer Science"
+university = "UNESP - São Paulo State University"
+dates = "2015 - 2018"
+[[params.education.list]]
+degree = "Technical Degree - Computer Programming"
+university = "UNESP - São Paulo State University"
+dates = "2012 - 2014"
+
+[params.awards]
+enable = true
+
+[[params.awards.list]]
+name = "ICPC"
+body = "1st Place Programming Contest Brazil - First Phase (Regional)"
+date = "2017"
+[[params.awards.list]]
+name = "ICPC"
+body = "1st Place Programming Contest Brazil - First Phase (Regional)"
+date = "2016"
+[[params.awards.list]]
+name = "OBFEP"
+body = "Brazilian Physics Olympiad - Bronze Medal"
+date = "2014"
+[[params.awards.list]]
+name = "OBA"
+body = "Brazilian Astronomy Olympiad - Golden Medal"
+date = "2014"
+[[params.awards.list]]
+name = "OBA"
+body = "Brazilian Astronomy Olympiad - Silver Medal"
+date = "2013"
+[[params.awards.list]]
+name = "OBI"
+body = "Brazilian Computing Olympiad - Honorable Mention"
+date = "2013"
+[[params.awards.list]]
+name = "OBI"
+body = "Brazilian Computing Olympiad - Silver Medal"
+date = "2012"
+[[params.awards.list]]
+name = "OBMEP"
+body = "Brazilian Mathematical Olympiad - Bronze Medal"
+date = "2011"
+[[params.awards.list]]
+name = "OBMEP"
+body = "Brazilian Mathematical Olympiad - Bronze Medal"
+date = "2010"
+[[params.awards.list]]
+name = "OBMEP"
+body = "Brazilian Mathematical Olympiad - Bronze Medal"
+date = "2009"
+
+
+[params.languages]
+enable = false
+
+[[params.languages.list]]
+name = "English"
+level = "Native"
+[[params.languages.list]]
+name = "Spanish"
+level = "Professional"
+
+[params.interests]
+enable = true
+
+[[params.interests.list]]
+name = "Reading"
+[[params.interests.list]]
+name = "Philosophy" 
+[[params.interests.list]]
+name = "Social sciences"
+[[params.interests.list]]
+name = "Open Source"
+
+[params.summary]
+enable = true
+text = "I’ve been working as a Data Engineer/Scientist for the last 5 years. I’m experienced in the entire pipeline of data processing, from data collection to data intelligence, using the Python ecosystem (Pandas, Numpy, Bokeh, Airflow, Luigi, scikit-learn, PyTorch, etc.), some BI tools (such as PowerBI and Data Studio), ELK, MongoDB, and many machine learning models. \n\n In my personal projects I’ve been using Go, and it’s definitely my favorite programming language. I also have a good experience with React, Angular, and Vue."
+
+[params.experience]
+enable = true
+
+[[params.experience.list]]
+title = "Data Engineer - Product Team"
+dates = "Sep 2019 - Present"
+company = "Emptor"
+company_link = "https://emptor.io/"
+[[params.experience.list.items]]
+details = "Distributed systems using Serverless"
+[[params.experience.list.items]]
+details = "Many ETL projects"
+[[params.experience.list.items]]
+details = "Text classification and Information Extraction from texts"
+[[params.experience.list.items]]
+details = "Created frontend apps using Vue/Typescript + Python"
+[[params.experience.list.items]]
+details = "Generated reports and visualizations using Data Studio"
+[[params.experience.list.items]]
+details = "Developed Web Crawlers"
+[[params.experience.list.items]]
+details = "Worked with AWS ecosystem (DynamoDB, Lambda, ECS-Fargate, SQS, CloudFormation, etc.)"
+
+[[params.experience.list]]
+title = "Data Scientist - Innovation Team"
+dates = "Jul 2017 - Sep 2019"
+company = "Softplan"
+company_link = "https://www.softplan.com.br/"
+[[params.experience.list.items]]
+details = "Created models for text classification, information extraction, and document generation"
+[[params.experience.list.items]]
+details = "Generated reports and integrations with the Power BI API"
+[[params.experience.list.items]]
+details = "Predictive and descriptive analysis of the Brazilian judicial system usage"
+[[params.experience.list.items]]
+details = "Custom extensions for Kibana (React)"
+
+[[params.experience.list]]
+title = "Data Scientist - R&D Team"
+dates = "Oct 2015 - Jul 2017"
+company = "Finch Soluções"
+company_link = "https://finchsolucoes.com.br/"
+[[params.experience.list.items]]
+details = "Big Data processing with Apache Spark and Hadoop to analyze and generate reports from legal documents"
+[[params.experience.list.items]]
+details = "Web Crawlers"
+[[params.experience.list.items]]
+details = "Machine learning models to text classification/clustering, NER (named entity recognition), and POS-tagging"
+
+[[params.experience.list]]
+title = "Full-stack (PHP, Angular.js, Cordova)"
+dates = "Sep 2013 - Jan 2015"
+company = "Triata"
+company_link = "http://www.triata.com.br/"
+[[params.experience.list.items]]
+details = "PHP systems with Laravel and Zend"
+[[params.experience.list.items]]
+details = "Mobile apps using Angular + Cordova"
+
+[params.projects]
+enable = true
+
+[[params.projects.list]]
+title = "Open Source Contributor/Developer"
+meta = "Open Source"
+tagline = "- GitHub: [@aron-bordin](https://github.com/aron-bordin)"
+
+[[params.projects.list]]
+title = "GSoC 2016 • Google Summer of Code"
+meta = "Scrapinghub"
+tagline = "- About: Project developed with Scrapinghub to support Java, JS, and R on Scrapy.\n- Link: https://github.com/scrapy-plugins/scrapy-streaming"
+
+[[params.projects.list]]
+title = "GSoC 2016 • Google Summer of Code"
+meta = "Kivy"
+tagline = "- About: Development of an IDE to make the development of Kivy UIs easier.\n- Link: https://github.com/kivy/kivy-designer"
+
+[params.social]
+enable = true
+
+[[params.social.list]]
+icon = "fab fa-github-square"
+url = "//github.com/aron-bodin"
+title = "aron-bordin"
+[[params.social.list]]
+icon = "fab fa-linkedin"
+url = "//linkedin.com/in/aronbordin"
+title = "aronbordin"
