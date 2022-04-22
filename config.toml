@@ -152,8 +152,17 @@ text = "I’ve been working as a Data Engineer/Scientist for the last 5 years. I
 enable = true
 
 [[params.experience.list]]
+title = "Senior Software Engineer - AI/ML"
+dates = "Jul 2021 - Present"
+company = "Grafana Labs"
+company_link = "https://grafana.com/"
+
+[[params.experience.list.items]]
+details = "Backend development with Go"
+
+[[params.experience.list]]
 title = "Data Engineer - Product Team"
-dates = "Sep 2019 - Present"
+dates = "Sep 2019 - Jun 2021"
 company = "Emptor"
 company_link = "https://emptor.io/"
 [[params.experience.list.items]]
